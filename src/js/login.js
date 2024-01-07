@@ -1,7 +1,7 @@
 import PocketBase from '../backend/pocketbase.es.mjs';
 console.log("Backend Loading Started");
 
-const pb = new PocketBase("http://172.24.132.109:8090");
+const pb = new PocketBase("https://sansdomainefixebackend.breizhhardware.fr");
 
 
 if(window.location.href.includes("login.html")){
