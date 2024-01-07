@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\BreizhHardware\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript parcel-builder
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jre-8.0.382.5-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-17.0.8.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-11.0.20.8-hotspot\bin;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\WireGuard\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nPerf;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\BreizhHardware\AppData\Local\Microsoft\WindowsApps;C:\Users\BreizhHardware\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files (x86)\Nmap;C:\Users\BreizhHardware\AppData\Local\Microsoft\WindowsApps;C:\Users\BreizhHardware\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/parcel-builder: Not found
+      at params.callback [as _callback] (C:\Users\BreizhHardware\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\BreizhHardware\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:517:28)
+      at Request.<anonymous> (C:\Users\BreizhHardware\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:517:28)
+      at IncomingMessage.<anonymous> (C:\Users\BreizhHardware\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:631:28)
+      at IncomingMessage.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1368:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "sansdomainefixe.xyz",
+    "version": "1.0.0",
+    "main": "index.html",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
